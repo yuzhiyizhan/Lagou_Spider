@@ -1,7 +1,13 @@
 import time
+import platform
 from loguru import logger
 from scrapy import cmdline
 from multiprocessing import Process
+
+if platform.system() == "Windows":
+    import asyncio
+
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 confs = [{"spider_name": "lagou", "frequency": 60 * 60 * 12}]
 

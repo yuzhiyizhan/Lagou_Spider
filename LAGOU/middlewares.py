@@ -6,13 +6,10 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 import time
-import asyncio
 import aiohttp
 from faker import Faker
 from loguru import logger
 from scrapy import signals
-from time import strftime, localtime
-from .settings import DEFAULT_REQUEST_HEADERS
 
 
 class LagouSpiderMiddleware:

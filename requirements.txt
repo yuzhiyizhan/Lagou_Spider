@@ -3,5 +3,5 @@ Scrapy==2.2.0
 Twisted==20.3.0
 Faker==4.1.1
 redis==3.5.3
-aiohttp==3.6.2
+aiohttp==3.7.4
 pymysql==0.10.0

@@ -1,5 +1,5 @@
 loguru==0.5.1
-Scrapy==2.2.0
+Scrapy==2.6.2
 Twisted==20.3.0
 Faker==4.1.1
 redis==3.5.3
